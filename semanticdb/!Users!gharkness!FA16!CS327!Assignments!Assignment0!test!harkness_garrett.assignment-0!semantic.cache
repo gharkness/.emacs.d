@@ -1,0 +1,88 @@
+;; Object harkness_garrett.assignment-0/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "harkness_garrett.assignment-0/"
+  :tables
+  (list
+    (semanticdb-table "langton327.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("sys/stat.h" include (:system-flag t) nil [20 41])
+            ("sys/types.h" include (:system-flag t) nil [42 64])
+            ("stdlib.h" include (:system-flag t) nil [65 84])
+            ("string.h" include (:system-flag t) nil [85 104])
+            ("params" variable
+               (:pointer 1
+                :constant-flag t
+                :default-value "\"PATTERN I\\nOUTPUT langton.mpg\\nBASE_FILE_FORMAT PPM\\n\"
+                     \"INPUT_CONVERT *\\nGOP_SIZE 650\\nSLICES_PER_FRAME 1\\n\"
+                     \"INPUT_DIR .\\nINPUT\\n\"
+                     \".langton_data/*.pbm [0000000000-%d+%d]\\n\"
+                     \"END_INPUT\\nPIXEL HALF\\nRANGE 10\\n\"
+                     \"PSEARCH_ALG LOGARITHMIC\\nBSEARCH_ALG CROSS2\\nIQSCALE 8\\n\"
+                     \"PQSCALE 10\\nBQSCALE 25\\nREFERENCE_FRAME ORIGINAL\\n\""
+                :type "char")
+                nil [106 577])
+            ("NAME_TEMPLATE" variable (:constant-flag t) nil [587 600])
+            ("_x_size" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [627 680])
+            ("_y_size" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [627 680])
+            ("_skip" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [627 680])
+            ("_sequence_number" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [627 680])
+            ("start_encode" function
+               (:arguments 
+                  ( ("x_size" variable (:type "int") (reparse-symbol arg-sub-list) [699 710])
+                    ("y_size" variable (:type "int") (reparse-symbol arg-sub-list) [711 722])
+                    ("skip" variable (:type "int") (reparse-symbol arg-sub-list) [723 732]))                  
+                :type "int")
+                nil [682 1298])
+            ("next_frame" function
+               (:arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1315 1326]))                  
+                :type "int")
+                nil [1300 1865])
+            ("finish_encode" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1885 1890]))                  
+                :type "int")
+                nil [1867 2269])
+            ("buffer" variable
+               (:dereference 2
+                :type "char")
+                nil [2271 2293])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2304 2313])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2314 2327]))                  
+                :type "int")
+                nil [2295 4318]))          
+      :file "langton327.c"
+      :pointmax 4319
+      :fsize 4318
+      :lastmodtime '(22470 1417 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("NAME_TEMPLATE" . ((string "\".langton_data/%010u.pbm\"" 601 . 626)))
+          )
+))
+  :file "!Users!gharkness!FA16!CS327!Assignments!Assignment0!test!harkness_garrett.assignment-0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

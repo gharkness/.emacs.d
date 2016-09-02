@@ -1,0 +1,106 @@
+;; Object hw4/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "hw4/"
+  :tables
+  (list
+    (semanticdb-table "LZtrie.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("edu.iastate.cs228.hw4" package nil nil [1 31])
+            ("LZtrie" type
+               (:typemodifiers ("public")
+                :interfaces ("ILZ")
+                :members 
+                  ( ("root" variable
+                       (:typemodifiers ("private")
+                        :type "Node")
+                        (reparse-symbol class_member_declaration) [393 411])
+                    ("numItems" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [471 492])
+                    ("LZtrie" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [529 593])
+                    ("add" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("key" variable (:type "String") (reparse-symbol formal_parameters) [931 941]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [913 1722])
+                    ("encode" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uncompress" variable (:type "String") (reparse-symbol formal_parameters) [2076 2093]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2055 2501])
+                    ("contains" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("key" variable (:type "String") (reparse-symbol formal_parameters) [2795 2805]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2774 2917])
+                    ("findNode" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("key" variable (:type "String") (reparse-symbol formal_parameters) [3185 3195]))                          
+                        :type "Node")
+                        (reparse-symbol class_member_declaration) [3163 3604])
+                    ("generateCodeWord" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("n" variable (:type "Node") (reparse-symbol formal_parameters) [3920 3926]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3888 4336])
+                    ("pad" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("binIdx" variable (:type "String") (reparse-symbol formal_parameters) [4558 4571]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4539 4919])
+                    ("padLast" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("key" variable (:type "String") (reparse-symbol formal_parameters) [5196 5206]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5173 5531])
+                    ("Node" type
+                       (:typemodifiers ("public")
+                        :members 
+                          ( ("index" variable
+                               (:typemodifiers ("private")
+                                :type "Integer")
+                                (reparse-symbol class_member_declaration) [5739 5761])
+                            ("prefix" variable
+                               (:typemodifiers ("private")
+                                :type "Node")
+                                (reparse-symbol class_member_declaration) [5839 5859])
+                            ("children" variable
+                               (:dereference 1
+                                :typemodifiers ("private")
+                                :type "Node")
+                                (reparse-symbol class_member_declaration) [5943 5967])
+                            ("Node" function
+                               (:constructor-flag t
+                                :typemodifiers ("public")
+                                :arguments 
+                                  ( ("prefix" variable (:type "Node") (reparse-symbol formal_parameters) [6115 6126])
+                                    ("index" variable (:type "Integer") (reparse-symbol formal_parameters) [6128 6141]))                                  )
+                                (reparse-symbol class_member_declaration) [6103 6228])
+                            ("getIndex" function
+                               (:typemodifiers ("public")
+                                :type "Integer")
+                                (reparse-symbol class_member_declaration) [6298 6351]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [5609 6354]))                  
+                :type "class")
+                nil [313 6356]))          
+      :file "LZtrie.java"
+      :pointmax 6357
+      :fsize 6360
+      :lastmodtime '(22400 1115 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!gharkness!coms228!src!edu!iastate!cs228!hw4!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

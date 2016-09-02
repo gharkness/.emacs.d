@@ -1,0 +1,109 @@
+;; Object ThreadExamples/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ThreadExamples/"
+  :tables
+  (list
+    (semanticdb-table "ThreadExample_3.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("ThreadExample_3" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [191 204]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [167 791]))                  
+                :type "class")
+                nil [134 793])
+            ("MyAdder" type
+               (:interfaces ("Runnable")
+                :members 
+                  ( ("buff" variable
+                       (:typemodifiers ("private")
+                        :type "MyBuffer")
+                        (reparse-symbol class_member_declaration) [833 855])
+                    ("index" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [857 875])
+                    ("MyAdder" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("i" variable (:type "int") (reparse-symbol formal_parameters) [893 898])
+                            ("buff" variable (:type "MyBuffer") (reparse-symbol formal_parameters) [900 913]))                          )
+                        (reparse-symbol class_member_declaration) [878 952])
+                    ("run" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [955 996]))                  
+                :type "class")
+                nil [795 998])
+            ("MyBuffer" type
+               (:members 
+                  ( ("sum" variable (:type "int") (reparse-symbol class_member_declaration) [1019 1031])
+                    ("add" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("i" variable (:type "int") (reparse-symbol formal_parameters) [1050 1055]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1034 1338]))                  
+                :type "class")
+                nil [1000 1352]))          
+      :file "ThreadExample_3.java"
+      :pointmax 1352
+      :fsize 1351
+      :lastmodtime '(22003 6900 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Makefile"
+      :major-mode 'makefile-bsdmake-mode
+      :tags 
+        '( ("example1" function (:arguments ("ThreadExample_1.java")) nil [1 60])
+            ("example2" function (:arguments ("ThreadExample_2.java")) nil [61 120])
+            ("example3" function (:arguments ("ThreadExample_3.java")) nil [121 180])
+            ("example4" function (:arguments ("ThreadExample_4.java")) nil [181 240])
+            ("clean" function nil nil [241 263]))          
+      :file "Makefile"
+      :pointmax 263
+      :fsize 262
+      :lastmodtime '(22473 53660 0 0)
+      :unmatched-syntax '((shell-command 249 . 262) (bol 248 . 248) (shell-command 213 . 239) (bol 212 . 212)))
+    (semanticdb-table "ThreadExample_2.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("ThreadExample_2" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [474 487]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [450 767]))                  
+                :type "class")
+                nil [417 774])
+            ("MyRunnable" type
+               (:interfaces ("Runnable")
+                :members 
+                  ( ("run" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [817 1177]))                  
+                :type "class")
+                nil [776 1179]))          
+      :file "ThreadExample_2.java"
+      :pointmax 1180
+      :fsize 1179
+      :lastmodtime '(21706 34424 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!gharkness!FA16!CS319!Lab1!ThreadExamples!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

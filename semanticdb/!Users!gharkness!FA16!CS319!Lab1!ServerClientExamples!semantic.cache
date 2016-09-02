@@ -1,0 +1,58 @@
+;; Object ServerClientExamples/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ServerClientExamples/"
+  :tables
+  (list
+    (semanticdb-table "MyServer.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("java.io.BufferedInputStream" include nil nil [346 381])
+            ("java.io.IOException" include nil nil [382 409])
+            ("java.net.ServerSocket" include nil nil [410 439])
+            ("java.net.Socket" include nil nil [440 463])
+            ("java.util.Scanner" include nil nil [464 489])
+            ("MyServer" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:throws ("IOException")
+                        :typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [541 554]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [517 1758]))                  
+                :type "class")
+                nil [491 1783])
+            ("ClientHandler" type
+               (:interfaces ("Runnable")
+                :members 
+                  ( ("s" variable (:type "Socket") (reparse-symbol class_member_declaration) [1853 1862])
+                    ("num" variable (:type "int") (reparse-symbol class_member_declaration) [1929 1937])
+                    ("ClientHandler" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("s" variable (:type "Socket") (reparse-symbol formal_parameters) [2013 2021])
+                            ("n" variable (:type "int") (reparse-symbol formal_parameters) [2023 2028]))                          )
+                        (reparse-symbol class_member_declaration) [1999 2059])
+                    ("run" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2099 2642])
+                    ("printSocketInfo" function
+                       (:arguments 
+                          ( ("s" variable (:type "Socket") (reparse-symbol formal_parameters) [2689 2697]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2668 2970]))                  
+                :type "class")
+                nil [1810 3000]))          
+      :file "MyServer.java"
+      :pointmax 3031
+      :fsize 3030
+      :lastmodtime '(21718 33023 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!gharkness!FA16!CS319!Lab1!ServerClientExamples!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
