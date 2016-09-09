@@ -17,19 +17,20 @@
 (custom-set-variables '(ring-bell-function 'ignore))
 (setq visible-bell nil)
 
-(setq inhibit-splash-screen t)
-(setq inhibit-startup-message t)
+;(setq inhibit-splash-screen t)
+;(setq inhibit-startup-message t)
 
 (blink-cursor-mode t)
 
 (require-package 'diminish)
 (diminish 'visual-line-mode)
 
-(require 'powerline)
-(powerline-default-theme)
-(require 'airline-themes)
-(sml/setup)
+;(require 'powerline)
+;(powerline-default-theme)
+;(require 'airline-themes)
 (setq sml/theme 'dark)
+(setq sml/no-confirm-load-theme t)
+(sml/setup)
 ;(load-theme 'airline-light)
 
 
