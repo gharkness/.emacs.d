@@ -27,6 +27,7 @@
 
 ;(require 'powerline)
 ;(powerline-default-theme)
+;(setq powerline-arrow-shape 'arrow14)
 ;(require 'airline-themes)
 (setq sml/theme 'dark)
 (setq sml/no-confirm-load-theme t)

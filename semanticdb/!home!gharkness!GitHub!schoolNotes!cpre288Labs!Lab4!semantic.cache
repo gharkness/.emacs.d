@@ -1,0 +1,84 @@
+;; Object Lab4/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Lab4/"
+  :tables
+  (list
+    (semanticdb-table "util.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("avr/io.h" include (:system-flag t) nil [240 259])
+            ("avr/interrupt.h" include (:system-flag t) nil [260 286])
+            ("util.h" include nil nil [287 304])
+            ("timer2_tick" variable
+               (:typemodifiers ("volatile")
+                :type "unsigned int")
+                nil [358 392])
+            ("timer2_start" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("unit" variable (:type "char") (reparse-symbol arg-sub-list) [411 421]))                  
+                :type "void")
+                nil [393 422])
+            ("timer2_stop" function
+               (:prototype-flag t
+                :type "void")
+                nil [423 442])
+            ("wait_ms" function
+               (:arguments 
+                  ( ("time_val" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [508 530]))                  
+                :type "void")
+                nil [495 755])
+            ("timer2_start" function
+               (:arguments 
+                  ( ("unit" variable (:type "char") (reparse-symbol arg-sub-list) [792 802]))                  
+                :type "void")
+                nil [774 1200])
+            ("timer2_stop" function (:type "void") nil [1218 1346])
+            ("ISR" function
+               (:arguments 
+                  ( ("" variable (:type ("TIMER2_COMP_vect" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1393 1410]))                  
+                :type "int")
+                nil [1388 1430])
+            ("init_push_buttons" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1511 1516]))                  
+                :type "void")
+                nil [1488 1613])
+            ("read_push_buttons" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1859 1864]))                  
+                :type "char")
+                nil [1836 2476])
+            ("shaft_encoder_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2559 2564]))                  
+                :type "void")
+                nil [2535 2660])
+            ("read_shaft_encoder" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3037 3042]))                  
+                :type "char")
+                nil [3013 3058])
+            ("stepper_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3130 3135]))                  
+                :type "void")
+                nil [3112 3282])
+            ("move_stepper_motor_by_step" function
+               (:arguments 
+                  ( ("num_steps" variable (:type "int") (reparse-symbol arg-sub-list) [3550 3564])
+                    ("direction" variable (:type "int") (reparse-symbol arg-sub-list) [3565 3579]))                  
+                :type "void")
+                nil [3517 3585]))          
+      :file "util.c"
+      :pointmax 3585
+      :fsize 3584
+      :lastmodtime '(22302 44503 740331 989000)
+      :unmatched-syntax nil)
+    (semanticdb-table "util.h"
+      :file "util.h"
+      :fsize 706
+      :lastmodtime '(22302 44503 740331 989000)))
+  :file "!home!gharkness!GitHub!schoolNotes!cpre288Labs!Lab4!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

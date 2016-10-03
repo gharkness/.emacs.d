@@ -1,0 +1,44 @@
+;; Object sample/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "sample/"
+  :tables
+  (list
+    (semanticdb-table "Main.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("sample" package nil nil [1 16])
+            ("javax.javafx.application.Application" include nil nil [18 62])
+            ("javafx.fxml.FXMLLoader" include nil nil [63 93])
+            ("javafx.scene.Parent" include nil nil [94 121])
+            ("javafx.scene.Scene" include nil nil [122 148])
+            ("javafx.stage.Stage" include nil nil [149 175])
+            ("Main" type
+               (:typemodifiers ("public")
+                :superclasses "Application"
+                :members 
+                  ( ("start" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("primaryStage" variable (:type "Stage") (reparse-symbol formal_parameters) [254 272]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [236 508])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [539 552]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [515 583]))                  
+                :type "class")
+                nil [177 585]))          
+      :file "Main.java"
+      :pointmax 586
+      :fsize 585
+      :lastmodtime '(22513 43185 920559 824000)
+      :unmatched-syntax nil))
+  :file "!home!gharkness!GitHub!gistFX!src!sample!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

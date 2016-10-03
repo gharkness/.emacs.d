@@ -1,0 +1,17 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables
+  (list
+    (semanticdb-table "AmusingLinkedList.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("java.util.*" include nil nil [2 21]))          
+      :file "AmusingLinkedList.java"
+      :pointmax 5900
+      :fsize 5899
+      :lastmodtime '(22371 37339 230049 853000)
+      :unmatched-syntax '((BRACE_BLOCK 112 . 5899) (GT 110 . 111) (IDENTIFIER 109 . 110) (LT 108 . 109) (IDENTIFIER 104 . 108) (IMPLEMENTS 93 . 103) (GT 91 . 92) (IDENTIFIER 90 . 91) (PUBLIC 59 . 65) (LT 89 . 90))))
+  :file "!home!gharkness!GitHub!cs228!assignment3!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

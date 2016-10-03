@@ -1,0 +1,30 @@
+;; Object hw3/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "hw3/"
+  :tables
+  (list
+    (semanticdb-table "LargeStraight.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("hw3" package nil nil [1 13])
+            ("LargeStraight" type
+               (:typemodifiers ("public")
+                :superclasses "StraightCategory"
+                :members 
+                  ( ("LargeStraight" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("displayName" variable (:type "String") (reparse-symbol formal_parameters) [653 671])
+                            ("points" variable (:type "int") (reparse-symbol formal_parameters) [673 683]))                          )
+                        (reparse-symbol class_member_declaration) [632 731]))                  
+                :type "class")
+                nil [332 733]))          
+      :file "LargeStraight.java"
+      :pointmax 734
+      :fsize 733
+      :lastmodtime '(22308 15195 86820 15000)
+      :unmatched-syntax nil))
+  :file "!home!gharkness!GitHub!hw3!src!hw3!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
