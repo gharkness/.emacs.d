@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 05 Oct 2016 03:21:57 GMT
+Content-Type: image/x-icon
+Content-Length: 33
+Connection: keep-alive
+Expires: Fri, 04 Nov 2016 03:21:57 GMT
+Cache-Control: max-age=2592000
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=0
+X-DuckDuckGo-Locale: en_US
+
+temp text

@@ -1,0 +1,30 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("CPRE381 Directory"
+ (filename . "~/CPRE381/")
+ (front-context-string . ".DS_Store\n  drwx")
+ (rear-context-string . "48 Oct  4 22:13 ")
+ (position . 246))
+("ENGL314 Notes"
+ (filename . "~/FA16/ENGL314/Notes/")
+ (front-context-string . "Lecture5.org\n  -")
+ (rear-context-string . "59 Sep  2 13:37 ")
+ (position . 254))
+("ENGL314 Directory"
+ (filename . "~/FA16/ENGL314/")
+ (front-context-string . "CoursePolicies.p")
+ (rear-context-string . "16 Aug 21 17:36 ")
+ (position . 255))
+("COMS327 Directory"
+ (filename . "~/COMS327/")
+ (front-context-string . ".git\n  drwxr-xr-")
+ (rear-context-string . "08 Oct  3 09:01 ")
+ (position . 245))
+("Interface Configuration"
+ (filename . "~/.emacs.d/subconfigs/init-interface.el")
+ (front-context-string . ";; Many settings")
+ (rear-context-string)
+ (position . 1))
+)

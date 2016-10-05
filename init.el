@@ -11,6 +11,9 @@
 (display-time-mode t)
 (line-number-mode t)
 
+(custom-set-variables
+ '(initial-frame-alist (quote ((fullscreen . maximized)))))
+
 ;(add-to-list 'custom-theme-load-path "~/.emacs.d/")
 (load-theme 'base16-solar-flare t)
 
@@ -28,7 +31,12 @@
 (org-babel-do-load-languages
   'org-babel-load-languages '((C . t)))
 
-(setq tab-always-indent 'complete)
+;(setq tab-always-indent nil)
+(setq indent-tabs-mode t)
+(setq-default tab-width 4)
+(setq tabs-always-indent t)
+
+(setq org-src-fontify-natively t)
 
 (provide 'init)
 (custom-set-variables
